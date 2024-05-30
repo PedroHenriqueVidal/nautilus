@@ -1,0 +1,259 @@
+body {
+    margin: 0%;
+}
+img#LogoBrandPersona {
+    width: 146px;
+    height: 109px;
+}
+img#LogoPyxys {
+    width: 110px;
+    height: 24px;
+    margin: 8px 0px 0px 20px;
+}
+img#LogoIlustraria {
+    width: 86px;
+    height: 27px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+div#wallpaper {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/Banner-Vermelho.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+button#curiosidades  {
+    width: 197px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px;
+    background-color: transparent;
+    border: solid;
+    color: white;
+}
+a {
+    color: white;
+    font-size: 12px;
+    font-family: Prompt;
+    text-align: center;
+    align-content: center;
+    height: 65px;
+    padding: 0%;
+    margin-left: 20px;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height:140px;
+    background-color: transparent;
+    align-items:center;
+    position: fixed;
+}
+@font-face {
+    font-family: Prompt;
+    src: url(Fonts/Prompt/Prompt-Black.ttf);
+}
+@font-face {
+    font-family: Mukta;
+    src: url(Fonts/Mukta/Mukta-Bold.ttf);
+}
+p {
+    align-content: center;
+    color: white;
+}
+p#ordem {
+    width: 280px;
+    height: 28px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 28px;
+    color: white;
+    font-family: Mukta;
+}
+p#propaganda {
+    width: 578px;
+    height: 100px;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px; 
+    font-family: Prompt; 
+    color: white;
+}
+p#descrição {
+    width: 641px;
+    height: 84px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+}
+/*Footer*/
+section#footer{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height:406px;
+    background-image: url(img/Banner-Vermelho.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+p#direitos {
+    width: 321px;
+    height: 49px;
+    font-size: 15px;
+    color:#FFC1C1;
+    font-weight: 400;
+    line-height: 40px;
+}
+img#pose {
+    width: 650px;
+    height: 450px;
+    top: -32px;
+    left: -84px;
+}
+p#dialogo {
+    width: 200px;
+    height: 40px;
+    font-family: Mukta;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    margin-bottom: -5px;
+}
+p#convencimento {
+    width: 778px;
+    height: 70px;
+    font-family: Prompt;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+    margin-top: 0%;
+}
+.dados-empresa {
+    width: 255.16px;
+    height: 50px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    background-color:#EF5D5D;
+    border-color: transparent;
+    display: flex;
+    margin-left: 10px;
+}
+.dados-empresa::placeholder {
+    color: white;
+    margin-top: 25px;
+    padding-left: 20px;
+}
+button#send {
+    width: 216px;
+    height: 50px;    
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    background-color:#2ECC71;
+    border-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+section#informs {
+    display: flex;
+    flex-direction: column;
+    width: 793px;
+    height: 296px;
+}
+div#estrutura-send {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin-top: 10px;
+    flex-direction: row-reverse;
+}
+p#enviar-contato {
+    font-family: prompt;
+    font-size: 14px;
+    font-weight: 700;
+}
+div#estrutura-direitos {
+    width: 100%;
+    height: 50px;
+    background-color: #D13232;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    position: fixed;
+}
+/*Datas*/
+.dados {
+    background-color: #494949;
+    width: 285px;
+    height: 329px;
+    border-radius: 24px;  
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+div#pag-dados {
+    width: 100%;
+    height: 80vh;
+}
+p#H1 {
+    width: 82px;
+    height: 77px;
+    font-family: Prompt;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76.8px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+p#H2 {
+    width: 185px;
+    height: 48px;
+    font-family: Prompt;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 30px;
+}
+p#H3 {
+    width: 232px;
+    height: 48px;
+    font-family: Catamaran;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+p#comprovação {
+    color: #E33F3F;
+    width: 181px;
+    height: 40px;
+    font-family: Mukta;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    align-self: flex-start;
+    margin-left: 160px;
+}
+p#resultados {
+    width: 1100px;
+    height: 38px;
+    font-family: Prompt;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    color: #494949;
+    align-self: flex-start; 
+    margin-left: 160px;
+    margin-top: -20px;
+}
