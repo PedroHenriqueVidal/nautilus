@@ -4,3 +4,5 @@ Esse é o projeto de recriação de um site nomeado brand-persona da startup Pyx
 Foi usado durante a criação deste projeto, funções do wordpress para a interconexão dos arquivos.
 Decidi não usar muitas funções do wordpress, até mesmo por não conhece-las 100%, pesquisando apenas aquelas que seriam
 mais importantes.
+
+Decidi fazer a estruturação de componentes, separando a landpage em alguns arquivos e colocando-os no index.php.
